@@ -4,7 +4,7 @@ var socket = require('socket.io'),
     socket = socket.listen(server);
 
 
-server.listen("3000", function () {
+server.listen("80", function () {
     console.log('Server started');
 });
 
@@ -14,7 +14,7 @@ server.listen("3000", function () {
 socket.on('connection', function (connection) {
 
     connection.on('onlinejoin', function () {
-        socket.emit('feed', 'OLDUUUUUUUUU');
+        socket.emit('feed', 'MESSAGE');
     });
 
 
