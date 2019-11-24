@@ -4,7 +4,7 @@ var socket = require('socket.io'),
     socket = socket.listen(server);
 
 
-server.listen("3000", function () {
+server.listen("8080", function () {
     console.log('Server started');
 });
 
