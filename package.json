@@ -12,7 +12,7 @@
   },
   
 "devDependencies": {
-    "mongoose": "^4.6.2",
+    "mongoose": "^5.7.12",
     "body-parser": "^1.15.2",
     "cors": "^2.8.0",
     "del": "2.2.0",
